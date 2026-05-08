@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-reveal { animation: reveal 1s ease-out forwards; }
+        body { background-color: #0f172a; color: white; scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+
+    <div class="text-center animate-reveal">
+        <h1 class="text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Adil 0456
+        </h1>
+        <p class="text-slate-400 text-xl mb-8">Designer, Developer & Creator of CoverPage</p>
+        
+        <div class="flex gap-4 justify-center">
+            <a href="#work" class="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/20">
+                View My Work
+            </a>
+            <a href="https://adil0456.github.io/CoverPage/" class="px-6 py-3 border border-slate-700 hover:bg-slate-800 rounded-full transition-all duration-300">
+                CoverPage Gen
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
